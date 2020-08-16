@@ -1,0 +1,34 @@
+main {
+    padding-top: 5vh;
+    margin: 0 auto;
+    width: 60%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #002;
+    color: #fb7;
+}
+
+main > div {
+    font-size: 2vw;
+    height: 4vh;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 1vw;
+    font-family: monospace;
+}
+
+#dobin, #secs {
+    border: 2px solid #f53;
+}
+
+input {
+    width: 20vw;
+    height: 3vh;
+    font-size: 2vw;
+    border-radius: 6px;
+}
+
+input, output {
+    text-align: center;
+}

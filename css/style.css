@@ -1,3 +1,7 @@
+body {
+    background-color: #00f4ff;
+}
+
 main {
     padding-top: 5vh;
     margin: 0 auto;
@@ -5,11 +9,13 @@ main {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    background-color: #002;
-    color: #fb7;
+    background-color: #001873;
+    color: #ff7600;
+    border: 2px solid #000;
+    border-radius: 6px;
 }
 
-main > div {
+main > * {
     font-size: 2vw;
     height: 4vh;
     margin: 0 auto;
@@ -18,17 +24,33 @@ main > div {
     font-family: monospace;
 }
 
-#dobin, #secs {
-    border: 2px solid #f53;
-}
-
 input {
     width: 20vw;
     height: 3vh;
     font-size: 2vw;
-    border-radius: 6px;
 }
 
 input, output {
     text-align: center;
+}
+
+table, th, td {
+    font-size: 1.4vw;
+    border: 1px solid #ff8e00;
+    border-collapse: collapse;
+    padding: 1vw;
+    border-radius: 8px;
+}
+
+table {
+    margin: 1vw;
+    padding-bottom: 2.7vh
+}
+
+td {
+    text-align: left;
+}
+
+th {
+    text-align: right;
 }

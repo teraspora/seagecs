@@ -11,17 +11,56 @@
 
 <body>
 	<main>
-		<div id="datob">
-			<label for="datob">Your date and time of birth (UTC)?</label>
-		</div>
-		<div id="dobin">
-			<input name="datob" type="text" autofocus>
-		</div><div>
-			<label for="secs">Your age in seconds</label>
-		</div>
-		<div id="secs">
-			<output name="secs" for="datob">000</output>
-		</div>
+		<table>
+			<tr>
+				<th>Date / Time of Birth</th>
+				<td><input id="datob" type="text" autofocus></td>
+			</tr>
+			<tr>
+				<th>Current Date & Time</th>
+				<td id="now"></td>
+			</tr>
+			<tr>
+				<th>Age in seconds</th>
+				<td><output id="secs"></output></td>
+			</tr>
+			<tr>
+				<th>Age in minutes</th>
+				<td><output id="mins"></output></td>
+			</tr>
+			<tr>
+				<th>Age in hours</th>
+				<td><output id="hrs"></output></td>
+			</tr>
+			<tr>
+				<th>Age in days</th>
+				<td><output id="days"></output></td>
+			</tr>
+			<tr>
+				<th>Age in weeks</th>
+				<td><output id="wks"></output></td>
+			</tr>
+			<tr>
+				<th>Age in months</th>
+				<td><output id="mths"></output></td>
+			</tr>
+			<tr>
+				<th>Age in years</th>
+				<td><output id="yrs"></output></td>
+			</tr>
+			<tr>
+				<th>Date when 500,000,000 seconds</th>
+				<td><output id="5e8"></output></td>
+			</tr>
+			<tr>
+				<th>Date when 1,000,000,000 seconds</th>
+				<td><output id="1e9"></output></td>
+			</tr>
+			<tr>
+				<th>Date when 2,000,000,000 seconds</th>
+				<td><output id="2e9"></output></td>
+			</tr>
+		</table>
 		
 	</main>
 
@@ -33,3 +72,16 @@
 </body>
 
 </html>
+
+<!-- <div id="datob">
+	<label for="datob">Your date and time of birth (UTC)?</label>
+</div>
+<div id="dobin">
+	<input name="datob" type="text" autofocus>
+</div>
+<div>
+	<label for="secs">Your age in seconds</label>
+</div>
+<div id="secs">
+	<output name="secs" for="datob">000</output>
+</div> -->

@@ -3,7 +3,7 @@ document.body.onload = _ => {
     const input = document.getElementsByTagName(`input`)[0];
     const outputs = document.getElementsByTagName(`output`);
     const now_box = document.getElementById(`now`);
-    flatpickr(`#datob`, { enableTime: true, dateFormat: "Y-m-d H:i:s", });
+    flatpickr(`#datob`, { enableTime: true, altInput: true, altFormat: "l j F Y H:i"});
     divisors = [1, 60, 3600, 86400, 604800, 2624832, 31557600]
     milestones = [~~5e8, ~~1e9, ~~2e9];
     dtadd = (dt, secs) => {

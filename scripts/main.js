@@ -5,7 +5,7 @@ document.body.onload = _ => {
     const now_box = document.getElementById(`now`);
     flatpickr(`#datob`, {enableTime: true});
     divisors = [1, 60, 3600, 86400, 604800, 2624832, 31557600]
-    milestones = [~~5e8, ~~1e9, ~~2e9, ~~6e8, ~~9e8, 864e6, 72e7];
+    milestones = [~~5e8, ~~1e9, ~~15e8, ~~2e9, ~~6e8, ~~9e8, 864e6, 72e7];
     dtadd = (dt, secs) => {
         dtc = new Date(dt);
         dtc.setSeconds(dtc.getSeconds() + secs);
